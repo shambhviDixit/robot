@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #000000">
+
+        <!--Camera-->
+        <a-entity position="0 0 15">
+            <a-camera></a-camera>
+        </a-entity>
+
+
+        <!--Sun-->
+        <a-entity>
+            <a-sphere position="0 0 0" radius="2" color="orange"></a-sphere>
+        </a-entity>
+
+        <!--Mercury-->
+        <a-entity position="0 0 0" rotation="0 0 0"
+            animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 10000">
+            <a-sphere position="1  0 -5" radius="0.2" color="grey"></a-sphere>  
+        </a-entity>
+
+        <!--venus-->
+        <a-entity position="0 0 0" rotation="0 0 0"
+            animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 12000">
+            <a-sphere position="6  0 -2" radius="0.3" color="red"></a-sphere>  
+        </a-entity>
+        <!--earth-->
+        <a-entity position="0 0 0" rotation="0 0 0"
+            animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 15000">
+            <a-sphere position="8  0 -2" radius="0.4" color="blue"></a-sphere>  
+        </a-entity>
+        <a-entity position="0 0 0" rotation="0 0 0"
+            animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 22000">
+            <a-sphere position="9  0 -2" radius="0.4" color="brown"></a-sphere>  
+        </a-entity>
+        
+        <a-entity position="0 0 0" rotation="0 0 0"
+            animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 24000">
+            <a-sphere position="10 0 -2" radius="0.6" color="orange"></a-sphere>  
+        </a-entity>
+        <a-entity position="0 0 0" rotation="0 0 0"
+        animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 25000">
+        <a-sphere position="13 0 -2" radius="0.5" color="pink"></a-sphere>  
+    </a-entity> 
+
+    <a-entity position="0 0 0" rotation="0 0 0"
+        animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 26000">
+        <a-sphere position="15 0 -2" radius="0.4" color="blue"></a-sphere>  
+    </a-entity>
+    <a-entity position="0 0 0" rotation="0 0 0"
+    animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 28000">
+    <a-sphere position="15 0 -2" radius="0.4" color="lightblue"></a-sphere>  
+</a-entity> 
+<a-entity position="0 0 0" rotation="0 0 0"
+    animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 30000">
+    <a-sphere position="17 0 -2" radius="0.3" color="blue"></a-sphere>  
+</a-entity>
+    </a-scene>
+</body>
+
+</html>
